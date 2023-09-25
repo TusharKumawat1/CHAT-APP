@@ -1,0 +1,18 @@
+.homeContainer{
+    width: 75vw;
+    height: 99%;
+    margin-block: 5px;
+    border-radius: 5px;
+    background-color:  white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeContainer h1{
+    color: #A8DDFD;
+    background-color: #ccf896;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}

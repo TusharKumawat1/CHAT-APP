@@ -1,0 +1,38 @@
+.container{
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:#fff;
+    gap:100px;
+    overflow: hidden;
+}  
+
+/* Aside container css */
+
+.Aside{
+    width: 30vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.dialogues{
+    width: 100%;
+    height: 25vh;
+    
+}
+.gifs{
+    margin-top: 20px;
+    padding: 50px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
