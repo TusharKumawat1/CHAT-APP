@@ -1,4 +1,4 @@
-const DIALOGUES=['My Name Is Walter Hartwell White. I Live At 308 Negra Aroya Lane, Albuquerque, New Mexico, 87104.', 'Right Now, What I Need, Is For You To Climb Down Out Of My A$$. Can You Do That? Will You Do That For Me, Honey?', "It's Always Been One Step Forward And Two Steps Back.", "I Told You Skyler, I Warned You For A Solid Year: You Cross Me, And There Will Be Consequences.", "We Tried To Poison You. We Tried To Poison You Because You’re An Insane, Degenerate Piece Of Filth, And You Deserve To Die.","You clearly don't know who you're talking to, so let me clue you in. I am not in danger, Skyler. I am the danger. A guy opens his door and gets shot and you think that of me? No. I am the one who knocks!"]
+const DIALOGUES=['I developed a MERN chat app, utilizing MongoDB, Express, React, and Node.js. It enables real-time messaging, user authentication, and multimedia sharing for seamless communication and user engagement.','This app facilitates real-time chat, connecting users instantly. Seamlessly communicate and share in real-time, enhancing your chat experience.']
 export default DIALOGUES;
 export const dummyData=[
     {

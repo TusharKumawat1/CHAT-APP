@@ -74,7 +74,7 @@ export default function ConnectionArea() {
             </div>
             <div className={Styles.id}>
               <h3>{data.username} 
-              <span className={Styles.newMessage}>+1</span>
+              
               </h3>
               <div className={Styles.idStatus}>
                 <p>{data.latestMessage.latestMsg}</p>

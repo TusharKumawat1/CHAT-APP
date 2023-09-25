@@ -55,7 +55,7 @@ export default function SignupForm() {
 
     return (
         <div className={styles.loginSection}>
-            <h1 className={styles.loginHeadline}>Whatsapp Baeyatch?</h1>
+            <h1 className={styles.loginHeadline}>Hello Community 👋</h1>
             <form className={styles.form} onSubmit={handleSubmit(onSubmit)}>
                 <h1 className={styles.heading}> <span className={styles.logo}>Br</span>eaking <span className={styles.logo}>Ch</span>at</h1>
                 <div className={styles.inputContainer}>
