@@ -20,7 +20,7 @@ export default function ConnectionArea() {
   //fetching available users via query
   const handlechange = async (e) => {
     setSearchText(pre => pre = e.target.value)
-    const result = await fetch(`http://localhost:3001/user/searchUser?search=${searchText}`, {
+    const result = await fetch(`https://chatapp-afbn.onrender.com/user/searchUser?search=${searchText}`, {
       method: "GET",
       headers: {
         authorization: currentUserData.token
@@ -33,7 +33,7 @@ export default function ConnectionArea() {
 
   //fetching available users
   const fetchUsers = async () => {
-    const r = await fetch("http://localhost:3001/user/fetchUsers", {
+    const r = await fetch("https://chatapp-afbn.onrender.com/user/fetchUsers", {
       method: "GET",
       headers: {
         authorization: currentUserData.token

@@ -77,7 +77,7 @@ export default function UserChat() {
 
     //sending user messages to backend 
     const addMessage = async () => {
-        const res = await fetch("http://localhost:3001/chat/addMessage", {
+        const res = await fetch("https://chatapp-afbn.onrender.com/chat/addMessage", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
@@ -91,7 +91,7 @@ export default function UserChat() {
     //fetch all messages between users
     const getMessages = async () => {
 
-        const response = await fetch("http://localhost:3001/chat/getMessages", {
+        const response = await fetch("https://chatapp-afbn.onrender.com/chat/getMessages", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json",
