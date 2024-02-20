@@ -14,7 +14,7 @@ export default function LoginForm() {
 
         toast.promise(
             new Promise(async (resolve, reject) => {
-                const res = await fetch("http://localhost:3001/auth/login", {
+                const res = await fetch("https://chatapp-afbn.onrender.com/auth/login", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json"

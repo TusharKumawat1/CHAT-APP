@@ -17,7 +17,7 @@ export default function Utilfunc({children}) {
         !signup?setSignup(true):setSignup(false)
     }
     const CurrentReciverData=async(id)=>{
-      const r=await fetch("http://localhost:3001/user/fetchSingleUsers",{
+      const r=await fetch("https://chatapp-afbn.onrender.com/user/fetchSingleUsers",{
           method:"POST",
           headers:{
             "Content-Type":"application/json",
@@ -29,7 +29,7 @@ export default function Utilfunc({children}) {
       setReciverDetails(p=>p=res)
     }
     const getCurrentChat=async(data)=>{//todo
-      const res=await fetch("http://localhost:3001/chat/getCurrentChat", {
+      const res=await fetch("https://chatapp-afbn.onrender.com/chat/getCurrentChat", {
           method: "POST",
           headers: {
               "Content-Type": "application/json",

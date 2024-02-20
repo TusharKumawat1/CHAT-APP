@@ -58,5 +58,7 @@ export const logIn = async (req, res) => {
     } else {
       return res.status(400).json({ success: false, error: "User not found" });
     }
-  } catch (error) {}
+  } catch (error) {
+    console.log(error)
+  }
 };
